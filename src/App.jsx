@@ -17,9 +17,9 @@ export default class App extends React.Component{
     return(
       <div>
         <h1>Counter App</h1>
-        <p>{this.state.count}</p>
-        <button onClick={this.Increament}>Increament</button>
-        <button onClick={this.Decreament}>Decreament</button>
+        <p>Count: {this.state.count}</p>
+        <button onClick={this.Increament}>Increment</button>
+        <button onClick={this.Decreament}>Decrement</button>
       </div>
     )
   }
